@@ -22,16 +22,25 @@ Controller → Mediator → Handler → Repository → In-Memory Data
 ## 🛠️ Tech Stack
 
 ASP.NET Core Web API
+
 MediatR
+
 CQRS
+
 Dependency Injection
+
 In-memory Data Store
+
 Swagger / Swashbuckle
 
 ## 📝 Future Enhancements
 
 Add Database (EF Core + SQL Server)
+
 Add AutoMapper + DTO Validation
+
 Add Unit Tests
+
 Logging / Pipeline Behaviors
+
 Authentication & Authorization
