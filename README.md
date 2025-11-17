@@ -19,40 +19,6 @@ Data is stored **in-memory**, and the API supports full CRUD operations for mana
 ## 🏗️ Architecture Diagram
 Controller → Mediator → Handler → Repository → In-Memory Data
 
-StudentCQRSApi/
-│
-├── Controllers/
-│ └── StudentsController.cs
-│
-├── Features/
-│ └── Students/
-│ ├── Commands/
-│ │ ├── AddStudentCommand.cs
-│ │ ├── UpdateStudentCommand.cs
-│ │ └── DeleteStudentCommand.cs
-│ └── Queries/
-│ ├── GetAllStudentsQuery.cs
-│ └── GetStudentByIdQuery.cs
-│
-├── Handlers/
-│ ├── AddStudentHandler.cs
-│ ├── UpdateStudentHandler.cs
-│ ├── DeleteStudentHandler.cs
-│ ├── GetAllStudentsHandler.cs
-│ └── GetStudentByIdHandler.cs
-│
-├── Models/
-│ └── Student.cs
-│
-├── Repositories/
-│ ├── IStudentRepository.cs
-│ └── StudentRepository.cs
-│
-├── Program.cs
-├── StudentCQRSApi.sln
-├── StudentCQRSApi.csproj
-└── appsettings.json
-
 ##🛠️ Tech Stack
 
 ASP.NET Core Web API
