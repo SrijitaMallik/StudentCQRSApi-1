@@ -19,7 +19,7 @@ Data is stored **in-memory**, and the API supports full CRUD operations for mana
 ## 🏗️ Architecture Diagram
 Controller → Mediator → Handler → Repository → In-Memory Data
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 ASP.NET Core Web API
 MediatR
@@ -28,7 +28,7 @@ Dependency Injection
 In-memory Data Store
 Swagger / Swashbuckle
 
-##📝 Future Enhancements
+## 📝 Future Enhancements
 
 Add Database (EF Core + SQL Server)
 Add AutoMapper + DTO Validation
